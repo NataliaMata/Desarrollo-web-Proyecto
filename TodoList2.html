@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="TodoList2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="taskInput" placeholder="Agregar nueva tarea...">
+        <ul id="taskList"></ul>
+        <div id="taskCount"></div>
+        <div class="filter-btns">
+            <button id="allBtn" class="active">Todas</button>
+            <button id="activeBtn">Activas</button>
+            <button id="completedBtn">Completadas</button>
+        </div>
+        <button id="clearCompletedBtn">Limpiar Completadas</button>
+    </div>
+
+    <script src="TodoList2.js"></script>
+</body>
+</html>

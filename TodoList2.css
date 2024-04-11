@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: gold;
+}
+
+#taskInput {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid gold;
+    border-radius: 50px;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 2px solid gold;
+    border-radius: 50px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btns {
+    margin-top: 20px;
+}
+
+.filter-btns button {
+    background-color: gold;
+    color: black;
+    border: 2px solid gold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.filter-btns button.active {
+    background-color: black;
+    color: gold;
+}
